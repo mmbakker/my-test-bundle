@@ -1,0 +1,20 @@
+{
+    "name": "mmbakker/my-test-bundle",
+    "description": "Test bundle to practice making a Symfony bundle.",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Michiel Bakker",
+            "email": "jaffog@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "symfony/http-kernel": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MichielBakker\\MyTestBundle\\": "src"
+        }
+    }
+}
