@@ -8,7 +8,7 @@ namespace MichielBakker\MyTestBundle\Service;
  * @TODO: make dependency injection (services.yaml) work.
  * @TODO: add configuration to services.yaml file.
  */
-class NamePrinterService
+class MessageBuilder
 {
     private string $prefix;
 
